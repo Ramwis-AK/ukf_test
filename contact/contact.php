@@ -10,14 +10,14 @@
     <title>Lugx Gaming Template - Contact Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../templatemo_589_lugx_gaming/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/owl.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -51,14 +51,14 @@ https://templatemo.com/tm-589-lugx-gaming
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="../main/index.php" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
+                        <img src="../templatemo_589_lugx_gaming/assets/images/logo.png" alt="" style="width: 158px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="../main/index.php">Home</a></li>
-                      <li><a href="shop.html">Our Shop</a></li>
-                      <li><a href="product-details.html">Product Details</a></li>
+                      <li><a href="../templatemo_589_lugx_gaming/shop.html">Our Shop</a></li>
+                      <li><a href="../templatemo_589_lugx_gaming/product-details.html">Product Details</a></li>
                       <li><a href="contact.html" class="active">Contact Us</a></li>
                       <li><a href="#">Sign In</a></li>
                   </ul>   
@@ -162,12 +162,12 @@ https://templatemo.com/tm-589-lugx-gaming
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../templatemo_589_lugx_gaming/vendor/jquery/jquery.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/isotope.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/owl-carousel.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/counter.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/custom.js"></script>
 
   </body>
 </html>
