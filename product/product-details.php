@@ -10,13 +10,13 @@
     <title>Lugx Gaming - Product Detail</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../templatemo_589_lugx_gaming/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-lugx-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/templatemo-lugx-gaming.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/owl.css">
+    <link rel="stylesheet" href="../templatemo_589_lugx_gaming/assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -43,34 +43,9 @@ https://templatemo.com/tm-589-lugx-gaming
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="../main/index.php" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="width: 158px;">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="../main/index.php">Home</a></li>
-                      <li><a href="shop.html">Our Shop</a></li>
-                      <li><a href="product-details.html" class="active">Product Details</a></li>
-                      <li><a href="../contact/contact.php">Contact Us</a></li>
-                      <li><a href="#">Sign In</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
+  <?php
+    include_once "header.php";
+  ?>
 
   <div class="page-heading header-text">
     <div class="container">
@@ -88,7 +63,7 @@ https://templatemo.com/tm-589-lugx-gaming
       <div class="row">
         <div class="col-lg-6">
           <div class="left-image">
-            <img src="assets/images/single-game.jpg" alt="">
+            <img src="../templatemo_589_lugx_gaming/assets/images/single-game.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 align-self-center">
@@ -156,14 +131,14 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6">
           <div class="main-button">
-            <a href="shop.html">View All</a>
+            <a href="../shop/shop.html">View All</a>
           </div>
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
+              <a href="product-details.html"><img src="../templatemo_589_lugx_gaming/assets/images/categories-01.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -171,7 +146,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+              <a href="product-details.html"><img src="../templatemo_589_lugx_gaming/assets/images/categories-05.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -179,7 +154,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
+              <a href="product-details.html"><img src="../templatemo_589_lugx_gaming/assets/images/categories-03.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -187,7 +162,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
+              <a href="product-details.html"><img src="../templatemo_589_lugx_gaming/assets/images/categories-04.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -195,7 +170,7 @@ https://templatemo.com/tm-589-lugx-gaming
           <div class="item">
             <h4>Action</h4>
             <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
+              <a href="product-details.html"><img src="../templatemo_589_lugx_gaming/assets/images/categories-05.jpg" alt=""></a>
             </div>
           </div>
         </div>
@@ -203,22 +178,19 @@ https://templatemo.com/tm-589-lugx-gaming
     </div>
   </div>
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2048 LUGX Gaming Company. All rights reserved. &nbsp;&nbsp; <a rel="nofollow" href="https://templatemo.com" target="_blank">Design: TemplateMo</a></p>
-      </div>
-    </div>
-  </footer>
+  <?php
+    include_once "footer.php";
+  ?>
+
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../templatemo_589_lugx_gaming/vendor/jquery/jquery.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/isotope.min.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/owl-carousel.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/counter.js"></script>
+  <script src="../templatemo_589_lugx_gaming/assets/js/custom.js"></script>
 
   </body>
 </html>
