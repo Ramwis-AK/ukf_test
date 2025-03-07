@@ -1,4 +1,5 @@
-<header class="header-area header-sticky">
+<!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -10,12 +11,12 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="../main/index.php">Home</a></li>
-                        <li><a href="../shop/shop.php">Our Shop</a></li>
-                        <li><a href="product-details.html" class="active">Product Details</a></li>
-                        <li><a href="../contact/contact.php">Contact Us</a></li>
-                        <li><a href="#">Sign In</a></li>
-                    </ul>
+                      <li><a href="../main/index.php">Home</a></li>
+                      <li><a href="shop.html" class="active">Our Shop</a></li>
+                      <li><a href="../product/product-details.php">Product Details</a></li>
+                      <li><a href="../contact/contact.php">Contact Us</a></li>
+                      <li><a href="#">Sign In</a></li>
+                  </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -24,5 +25,5 @@
             </div>
         </div>
     </div>
-</header>
-<!-- ***** Header Area End ***** -->
+  </header>
+  <!-- ***** Header Area End ***** -->

@@ -11,7 +11,7 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li><a href="../main/index.php">Home</a></li>
-                        <li><a href="../shop/shop.html">Our Shop</a></li>
+                        <li><a href="../shop/shop.php">Our Shop</a></li>
                         <li><a href="../product/product-details.php">Product Details</a></li>
                         <li><a href="contact.html" class="active">Contact Us</a></li>
                         <li><a href="#">Sign In</a></li>

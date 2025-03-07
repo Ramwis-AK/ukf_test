@@ -131,7 +131,7 @@ https://templatemo.com/tm-589-lugx-gaming
         </div>
         <div class="col-lg-6">
           <div class="main-button">
-            <a href="../shop/shop.html">View All</a>
+            <a href="../shop/shop.php">View All</a>
           </div>
         </div>
         <div class="col-lg col-sm-6 col-xs-12">
